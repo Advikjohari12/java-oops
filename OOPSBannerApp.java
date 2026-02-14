@@ -18,14 +18,14 @@ class Banner {
         patterns.put('O', new String[]{
                 " ***** ",
                 "*     *",
-                "*     *",
+                "*  *  *",
                 "*     *",
                 " ***** "
         });
 
         patterns.put('P', new String[]{
                 " ***** ",
-                "*     *",
+                "*  *  *",
                 " ***** ",
                 "*      ",
                 "*      "
@@ -54,7 +54,7 @@ class Banner {
                 if (patterns.containsKey(ch)) {
                     System.out.print(patterns.get(ch)[i] + "  ");
                 } else {
-                    System.out.print("       ");
+                    System.out.print("        ");
                 }
 
             }
