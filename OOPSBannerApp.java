@@ -15,14 +15,14 @@ class Banner {
         patterns.put('O', new String[]{
                 " ***** ",
                 "*     *",
-                "*  *  *",
+                "*     *",
                 "*     *",
                 " ***** "
         });
 
         patterns.put('P', new String[]{
                 " ***** ",
-                "*  *  *",
+                "*     *",
                 " ***** ",
                 "*      ",
                 "*      "
