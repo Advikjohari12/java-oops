@@ -52,7 +52,7 @@ class Banner {
             for (char ch : word.toCharArray()) {
 
                 if (patterns.containsKey(ch)) {
-                    System.out.print(patterns.get(ch)[i] + "  ");
+                    System.out.print(String.join("", patterns.get(ch)[i], "  "));
                 } else {
                     System.out.print("        ");
                 }
